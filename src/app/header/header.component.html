@@ -4,7 +4,7 @@
       <span class="material-icons">shopping_cart</span>
     </button>
     <span *ngIf="!api.Connected">
-      <button mat-button (click)="Login()" >התחברות/הרשמה</button>
+      <button mat-button (click)="Login()" >1התחברות/הרשמה</button>
     </span>
     <span *ngIf="api.Connected">
       <button mat-button (click)="api.LogOut()">התנתקות</button> שלום
